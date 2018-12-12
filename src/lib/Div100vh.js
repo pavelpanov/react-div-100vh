@@ -16,11 +16,11 @@ export default class Div100vh extends React.Component {
 
   componentDidMount() {
     this.updateStyle();
-    window.addEventListener('resize', this.updateStyle);
+//     window.addEventListener('resize', this.updateStyle);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateStyle);
+//     window.removeEventListener('resize', this.updateStyle);
   }
 
   render() {
